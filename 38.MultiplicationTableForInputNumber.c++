@@ -25,7 +25,7 @@ int main(){
     cout<< "Input a number: ";
     int num;
     cin>> num;
-    for(i=1; i<=10; i++){
+    for(int i=1; i<=10; i++){
         cout<< num<< " X "<< i<< " = "<< num*i<< endl;
     }
 }
